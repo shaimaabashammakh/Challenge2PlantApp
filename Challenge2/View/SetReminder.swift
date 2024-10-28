@@ -7,6 +7,7 @@
 
 // This is a view
 
+ //correct
 import SwiftUI
 
 struct SetReminder: View {
@@ -25,7 +26,7 @@ struct SetReminder: View {
 
     var body: some View {
         ZStack {
-            Color.NewGray.ignoresSafeArea()  // Background color for full screen
+            Color.NewGray.ignoresSafeArea()
             VStack {
                 HStack {
                     Button(action: { viewModel.showNewPage = true }) {
@@ -143,7 +144,8 @@ struct SetReminder: View {
             .navigationBarBackButtonHidden(true)
             .navigationBarHidden(true)
             .onAppear {
-                viewModel.loadPlantData() // Call to load plant data from ViewModel
+                // Call to load plant data from ViewModel
+                viewModel.loadPlantData()
                 if let plant = viewModel.selectedPlant {
                     SelectedRoom = plant.Room
                     SelectedLight = plant.Light
@@ -156,7 +158,7 @@ struct SetReminder: View {
     }
 }
 
-
+//--------
 //
 //import SwiftUI
 //

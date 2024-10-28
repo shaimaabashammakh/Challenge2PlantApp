@@ -9,9 +9,8 @@
 
 
 // This is a view
-
+// correct
 import SwiftUI
-
 
 struct SplashScreen: View {
     

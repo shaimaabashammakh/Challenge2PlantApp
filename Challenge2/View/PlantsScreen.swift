@@ -10,8 +10,7 @@
 //
 
 
-// Has error in swap -delete-
-
+// correct
 import SwiftUI
 
 extension Color {
@@ -150,6 +149,9 @@ struct PlantsScreen: View {
         }
     }
 }
+
+
+
 //
 //
 //----no error-----
