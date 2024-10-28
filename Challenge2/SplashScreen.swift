@@ -33,7 +33,7 @@ struct SplashScreen: View {
                     Image("Plant")
                         .resizable()
                         .frame(width: 200, height: 200)
-                        .padding(.bottom, 19.0).padding(.top,40)
+                        .padding(.bottom, 19.0)
                     
                     Text("Start your plant journey!")
                         .padding(.top, 20.0)
