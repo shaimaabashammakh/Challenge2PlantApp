@@ -27,24 +27,3 @@ struct PlantsInfo: Identifiable {
     }
 }
 
-
-
-
-//
-//struct PlantsInfo {
-//   
-//    var Light: String
-//    var Room: String
-//    var WateringDays: String
-//    var Water: String
-//    var Name: String
-//    var isChecked: Bool = false
-//    
-//    init(Light: String, Room: String, WateringDays: String, Water: String, Name: String) {
-//        self.Light = Light
-//        self.Room = Room
-//        self.WateringDays = WateringDays
-//        self.Water = Water
-//        self.Name = Name
-//    }
-//}

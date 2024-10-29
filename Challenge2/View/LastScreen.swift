@@ -15,7 +15,7 @@ struct LastScreen: View {
     @State private var isShowingSetReminder = false
     
     var body: some View {
-        NavigationView { // Wrap everything in a NavigationView
+        NavigationView { 
             ZStack {
                 Color.black.ignoresSafeArea()
                 
@@ -53,12 +53,12 @@ struct LastScreen: View {
                         .padding(.top, 210)
                         .padding(.trailing, 220)
                     }
-                }
+                }.navigationBarBackButtonHidden(true)
+                    .navigationBarHidden(true)
             }.navigationBarBackButtonHidden(true)
                 .navigationBarHidden(true)
             
-            .navigationBarBackButtonHidden(true)
-            .navigationBarHidden(true)
+           
         }
     }
 }
